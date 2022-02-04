@@ -4,7 +4,6 @@
 
 import telebot
 import config
-import Filter
 import pyowm
 import json
 
@@ -13,8 +12,6 @@ from string import punctuation
 from time import sleep
 
 bot = telebot.TeleBot(config.TOKEN)
-
-filter = Filter.filter
 
 Phrases_matrix = ['Знати шлях і пройти його – не одне й теж.',
                    'Якби ти не міг прокинутися, як би ти дізнався, що сон, а що дійсність?',
